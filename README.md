@@ -195,3 +195,32 @@ function getHash(str) {
 
 console.log(getHash('1'));
 ```
+
+### 路由
+路由主要处理get和post请求，格式都是如下
+```
+app.get('/', (req, res) => {...})
+```
+函数接受两个参数，路径和回调。回调有req请求信息和res响应信息。
+
+req.query
+```
+// GET /index.html?name=article
+req.query.name -> article
+```
+
+req.params
+```
+// Get /user/nicolas
+req.params.name = nicolas
+```
+
+req.body
+```
+req.body.name
+```
+
+### 安装mongod之后的启动，非后台服务方式。
+`mongod --config /usr/local/etc/mongod.conf`
+
+可视化工具--Robomongo
