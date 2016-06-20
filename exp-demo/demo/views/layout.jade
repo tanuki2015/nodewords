@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/lib/bootstrap/dist/css/bootstrap.css')
+    //- 引用地址不要加public，因为路由中‘/’已经代表了public这个静态服务器。
+  body
+    include header
+    block content
+    include footer

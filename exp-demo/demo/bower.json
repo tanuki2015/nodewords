@@ -1,0 +1,23 @@
+{
+  "name": "demo",
+  "description": "express demo",
+  "main": "",
+  "authors": [
+    "tanuki2015 <75954762@qq.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "express"
+  ],
+  "homepage": "https://github.com/tanuki2015/nodewords",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
